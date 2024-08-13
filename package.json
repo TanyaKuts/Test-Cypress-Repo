@@ -1,0 +1,16 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:send-to-dashboard": "npx cypress run --record --key deac10c0-03e7-446d-9b2d-74f159a39084 --spec \"cypress/e2e/specs\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
